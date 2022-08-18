@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: posts-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: posts
+  template:
+    metadata:
+      labels:
+        app: posts
+    spec:
+      containers:
+        - name: posts
+          image: "yasniel1408/posts:latest"
+          resources:
+            limits:
+              cpu: 200m
+              memory: 300Mi
+            requests:
+              cpu: 100m
+              memory: 150Mi
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: post-service
+spec:
+  selector:
+    app: posts
+  type: ClusterIP
+  ports:
+    - name: posts
+      protocol: TCP
+      port: 4000
+      targetPort: 4000

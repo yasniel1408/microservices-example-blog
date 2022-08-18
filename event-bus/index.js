@@ -14,18 +14,18 @@ app.post("/events", (req, res) => {
 
   console.log(`event-bus - ${event.type}: `, req.body);
 
-  axios.post("http://localhost:4000/events", event).catch((err) => {
+  axios.post("http://post-service:4000/events", event).catch((err) => {
     console.log(err.message);
   });
-  axios.post("http://localhost:4001/events", event).catch((err) => {
-    console.log(err.message);
-  });
-  axios.post("http://localhost:4002/events", event).catch((err) => {
-    console.log(err.message);
-  });
-  axios.post("http://localhost:4003/events", event).catch((err) => {
-    console.log(err.message);
-  });
+  // axios.post("http://localhost:4001/events", event).catch((err) => {
+  //   console.log(err.message);
+  // });
+  // axios.post("http://localhost:4002/events", event).catch((err) => {
+  //   console.log(err.message);
+  // });
+  // axios.post("http://localhost:4003/events", event).catch((err) => {
+  //   console.log(err.message);
+  // });
   res.send({ status: "OK" });
 });
 
