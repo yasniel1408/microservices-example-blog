@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c0ab6cb-0b3b-4446-9afb-b5cefbc15b95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../comments/.idea/comments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comments/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comments/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comments/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comments/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comments/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comments/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/event-bus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/moderation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/posts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/query.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="kind-kind" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HF9TiClw4r38mmrUDAj0Y9lti6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20221107_0003",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/yasniel/Documents/PROYECTOS/microservices-example-blog/event-bus",
+    "nodejs_package_manager_path": "yarn"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c0ab6cb-0b3b-4446-9afb-b5cefbc15b95" name="Changes" comment="" />
+      <created>1667869974099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667869974099</updated>
+      <workItem from="1667869975203" duration="275000" />
+      <workItem from="1667870642256" duration="469000" />
+      <workItem from="1667871564085" duration="6461000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

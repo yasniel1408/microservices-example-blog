@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1192f18a-3d83-4827-a7b5-93b58aee1283" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/comments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../event-bus/.idea/event-bus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../event-bus/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../event-bus/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../event-bus/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../event-bus/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../event-bus/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/moderation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moderation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/posts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../posts/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/query.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../query/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.19.1/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="kind-kind" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HF94T6LXluu1k4JnxjFhC6auPg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20221107_0006",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/yasniel/Documents/PROYECTOS/microservices-example-blog/comments",
+    "nodejs_package_manager_path": "yarn"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1192f18a-3d83-4827-a7b5-93b58aee1283" name="Changes" comment="" />
+      <created>1667869772679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667869772679</updated>
+      <workItem from="1667869773796" duration="1741000" />
+      <workItem from="1667871593615" duration="2215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

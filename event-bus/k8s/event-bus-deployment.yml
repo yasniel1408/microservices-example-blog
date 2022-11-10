@@ -22,18 +22,3 @@ spec:
             requests:
               cpu: 200m
               memory: 250Mi
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: event-bus-service
-spec:
-  selector:
-    app: event-bus
-  type: ClusterIP
-  ports:
-    - name: event-bus
-      protocol: TCP
-      port: 4005
-      targetPort: 4005
