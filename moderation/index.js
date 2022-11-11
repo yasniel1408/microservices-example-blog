@@ -8,6 +8,8 @@ app.use(bodyParser.json());
 app.post("/events", async (req, res) => {
   const { type, data } = req.body;
 
+  console.log(`moderation - ${type}: `, data);
+
   if (type === "CommentCreated") {
     console.log(`moderation - ${type}: `, req.body);
 
@@ -16,7 +18,7 @@ app.post("/events", async (req, res) => {
 
     try {
       console.log(`moderation - CommentModerated: `, req.body);
-      await axios.post("http://localhost:4005/events", {
+      await axios.post("http://event-bus-service:4005/events", {
         type: "CommentModerated",
         data: { id, status, postId },
       });

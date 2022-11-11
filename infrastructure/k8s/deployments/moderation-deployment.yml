@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: moderation-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: moderation
+  template:
+    metadata:
+      labels:
+        app: moderation
+    spec:
+      containers:
+        - name: moderation
+          image: "yasniel1408/moderation:latest"
+          resources:
+            limits:
+              cpu: 200m
+              memory: 300Mi
+            requests:
+              cpu: 100m
+              memory: 150Mi

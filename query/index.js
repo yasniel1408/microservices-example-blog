@@ -30,7 +30,7 @@ const handleEvents = (type, data) => {
   }
 };
 
-app.get("/posts", (_req, res) => {
+app.get("/query/posts", (_req, res) => {
   res.send(posts);
 });
 
@@ -47,7 +47,7 @@ app.post("/events", (req, res) => {
 app.listen(4002, async () => {
   console.log("Listening on 4002");
 
-  const result = await axios.get("http://localhost:4005/events");
+  const result = await axios.get("http://event-bus-service:4005/events");
 
   result.data.forEach(({ type, data }) => {
     console.log("Processing event...", type);
