@@ -1,0 +1,58 @@
+apiVersion: skaffold/v2alpha3
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      - ./infra/k8s/* # la ruta que va a observar de k8s
+build:
+  local:
+    push: false # esto es para enviar a dockerhub
+  artifacts: # las imagenes y desde donde se construyen y se sync
+    - image: yasniel1408/client
+      context: client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "src/**/*.js" # si se hace un cambio en otro archivo se construira la imagen nuevamente
+    - image: yasniel1408/comments
+      context: comments
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "*.js" # si se hace un cambio en otro archivo se construira la imagen nuevamente
+    - image: yasniel1408/event-bus
+      context: event-bus
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "*.js" # si se hace un cambio en otro archivo se construira la imagen nuevamente
+    - image: yasniel1408/moderation
+      context: moderation
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "*.js" # si se hace un cambio en otro archivo se construira la imagen nuevamente
+    - image: yasniel1408/posts
+      context: posts
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "*.js" # si se hace un cambio en otro archivo se construira la imagen nuevamente
+    - image: yasniel1408/query
+      context: query
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "*.js" # si se hace un cambio en otro archivo se construira la imagen nuevamente

@@ -17,8 +17,8 @@ spec:
           image: "yasniel1408/client:latest"
           resources:
             limits:
-              cpu: 500m
-              memory: 500Mi
+              cpu: 600m
+              memory: 700Mi
             requests:
-              cpu: 200m
-              memory: 250Mi
+              cpu: 400m
+              memory: 450Mi
